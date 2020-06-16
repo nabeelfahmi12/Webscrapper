@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: ReviewScraper
+  memory: 500MB
+  disk_quota: 500MB
+  random-route: true
+  parameters:
+    memory: 500MB
+    buildpack: 'python_buildpack'
